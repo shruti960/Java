@@ -1,0 +1,20 @@
+class Final {
+    int x = 10;
+    final int y = 5;
+    public void fun()
+    {
+    int k = 0;
+     System.out.println(k);
+    }
+}
+class Main {
+   
+ public static void main(String[] args){
+ Final hw = new Final();
+   System.out.println(hw.x);
+
+    System.out.println(++(hw.x));
+   System.out.println(hw.y);
+   hw.fun();
+    }
+}
