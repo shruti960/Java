@@ -1,0 +1,13 @@
+class WrapperClass
+{
+   public static void main(String[] args)
+   {
+      Double i  = Double.valueOf("8");
+	  System.out.println(i);
+   Double j  = Double.parseDouble("2");
+	  System.out.println(j);
+	  int c  = i.intValue();
+	  System.out.println(c);
+   }
+
+}
