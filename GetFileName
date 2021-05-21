@@ -1,0 +1,13 @@
+class GetFileName
+{
+	
+   public static void main(String[] args)
+   {
+	   String fileName = ".substring.java.io";
+     fileName = fileName.replaceFirst("[.^][^.]+$", "");
+		  System.out.println("File Name = " + fileName);
+	  }
+	
+		
+   
+}
