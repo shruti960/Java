@@ -1,0 +1,21 @@
+class Static
+{
+   int y;
+   static int x;
+   void fun()
+   {
+   System.out.println("non static");
+   }
+   static void fun2()
+   {
+   
+   System.out.println(y);
+   }
+
+public static void main(String[] args){
+Static obj = new Static();
+  System.out.println(obj.y);
+
+   System.out.println(Static.x);
+
+}
